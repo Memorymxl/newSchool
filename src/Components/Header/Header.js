@@ -3,20 +3,37 @@
  */
 import React, { Component } from 'react';
 import './Header.css';
+import $ from 'jquery';
 
 class Header extends Component{
+
+    constructor(){
+        super()
+        this.state={
+            'head':[{title:'',id:''}]
+        }
+    }
+    componentDidMount(){
+        $.ajax({
+            url:"http://localhost:3500/get/text",
+            type:"get",
+            async:true,
+            success:function (e) {
+                this.setState({'head':e})
+            }.bind(this)
+        })
+    }
     render(){
         return (
             <div className="shareHeader">
                 <div className="shMain">
                     <span>School Design</span>
                     <ul>
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">园所概况</a></li>
-                        <li><a href="#">园丁风采</a></li>
-                        <li><a href="#">特色教学</a></li>
-                        <li><a href="#">入园须知</a></li>
-                        <li><a href="#">最新动态</a></li>
+                        {
+                            this.state.head.map(function(e){
+                                return (<li key={e.id}><a href="#">{e.title}</a></li>)
+                            })
+                        }
                     </ul>
                 </div>
             </div>

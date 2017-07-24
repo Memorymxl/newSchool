@@ -6,7 +6,7 @@ import Feature from './Feature/Feature.js';
 import Environment from './Environment/Environment.js';
 import Trends from './Trends/Trends.js';
 
-class Main extends Component{
+class Home extends Component{
     render(){
         return (
             <div>
@@ -20,4 +20,4 @@ class Main extends Component{
         )
     }
 }
-export default Main
+export default Home

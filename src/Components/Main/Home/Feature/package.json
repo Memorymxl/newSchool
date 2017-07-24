@@ -1,0 +1,6 @@
+{
+  "name": "Feature",
+  "version": "0.0.1",
+  "main":"./Feature.js",
+  "private":"true"
+}

@@ -1,0 +1,19 @@
+*{padding: 0;margin:0;text-decoration: none;list-style:none;font-size:14px}
+.left{float:left;display:inline}
+.right{float:right;display:inline}
+.clear:after{display:block;content:'';clear:both}
+.clear{zoom:1}
+.trends{padding-bottom:106px;}
+.trendscon{width:1200px;margin:0 auto;}
+.trendstop{width:100%;text-align:center;}
+.trendstop>h2{font-size:48px;padding-top:113px;margin-bottom:12px;color:rgb(253, 115, 74)}
+.trendstop>img{margin-bottom:70px;margin-top:44px}
+.trendsbot{width:100%;height:450px;background: url("http://11822707.s61i.faiusr.com/4/AD0I88zRBRAEGAAg8ez-wAUo4pSj0gEwsAk4wgM.png")}
+.trendbot_con{width:514px;margin-right:42px;color:#fff;}
+.trendbot_con>div:last-of-type{border-bottom: none}
+.trendbot_one{padding-top:33px;border-bottom:1px dashed #fff;padding-bottom: 40px;}
+.trendbot_one>p:first-of-type>span:first-of-type{font-size: 16px;}
+.trendbot_one>p:first-of-type>span:last-of-type{font-size:12px;float:right}
+.trendbot_one>p:last-of-type{line-height: 20px;margin-top:18px;font-size: 12px;}
+
+

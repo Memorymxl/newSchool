@@ -1,0 +1,6 @@
+{
+  "name": "Environment",
+  "version": "0.0.1",
+  "main":"./Environment.js",
+  "private":"true"
+}

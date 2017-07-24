@@ -1,0 +1,13 @@
+*{padding: 0;margin:0;text-decoration: none;list-style:none;font-size:14px}
+.left{float:left;display:inline}
+.right{float:right;display:inline}
+.clear:after{display:block;content:'';clear:both}
+.clear{zoom:1}
+.footer{height:736px;background: url("../Main/images/3.jpg")}
+.footercon{width:1200px;margin:0 auto;padding-top:358px;}
+.scdesign{width:324px;border-bottom:1px solid #fff;padding-bottom:22px;color: rgb(253, 115, 74);font-size:30px;text-align:center;margin:0 auto}
+.footmid>div{margin-right:200px;color:#fff;float:left;}
+.footmid>div>span{font-size:16px}
+.footmid>div:first-of-type{margin-left:72px;}
+.footmid>div:last-of-type{margin-right:0;}
+.footmid{margin-top:68px;}

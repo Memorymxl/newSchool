@@ -1,0 +1,19 @@
+*{padding: 0;margin:0;text-decoration: none;list-style:none;font-size:14px}
+.left{float:left;display:inline}
+.right{float:right;display:inline}
+.clear:after{display:block;content:'';clear:both}
+.clear{zoom:1}
+.environment{background: #ff6537;padding-bottom:139px;}
+.learncon{width:1200px;margin:0 auto;}
+.envirbot>div{margin-right:35px;}
+.envirbot>div:last-of-type{margin-right:0;}
+.envirtop{width:100%;text-align:center;color:#fff}
+.envirtop>h2.learnh{font-size:48px;padding-top:113px;margin-bottom:12px;color:#fff;}
+.envirtop>img{margin-bottom:70px;margin-top:44px}
+.envirbot_one{width:330px;height:498px;}
+.envirbot_two{width:476px;height:498px;}
+.envirbot_two>div{margin-left:6px}
+.envirbot_one>a{display:block;width:326px;height:141px;line-height:141px;text-align:center;background: #fff;font-size:24px;color:#fd734a;border-radius:15px;margin-top:15px;}
+.envirbot_two>div>a{margin-top:26px;margin-bottom:20px;display:block;width:234px;height:128px;line-height:128px;text-align:center;background: #fff;font-size:24px;color:#fd734a;border-radius:15px;}
+.envirbot_two>img:last-of-type{margin-top:26px;}
+.envirbot_three>a{margin-bottom:26px;display:block;width:316px;height:148px;line-height:148px;text-align:center;background: #fff;font-size:24px;color:#fd734a;border-radius:15px;}
